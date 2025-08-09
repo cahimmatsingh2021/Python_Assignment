@@ -1,0 +1,5 @@
+First_Name=input("Enter your first name: ")
+Last_Name=input("Enter your second name: ")
+c= ("! Welcome to the Python program.")
+print()
+print("Hello,", First_Name+" "+Last_Name+c)
