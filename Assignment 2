@@ -1,0 +1,15 @@
+a=int(input("Enter a number: "))
+if a % 2 == 0:
+    print(a, "is an even number")
+else :
+    print(a, "is an odd number")
+
+total_sum = 0
+Start_Number = int(input("Enter the starting number: "))
+End_Number = int(input("Enter the ending number: "))
+for i in range(Start_Number,End_Number+1):
+    total_sum +=i
+print(f"The sum of numbers from {Start_Number} to {End_Number} is : {total_sum} ")
+
+
+
